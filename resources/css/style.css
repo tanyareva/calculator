@@ -1,0 +1,40 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.calculate {
+  width: 40%;
+  height: 60%;
+  border-radius: 20px;
+  border: SOLID 4px #CDDC39;
+  background: grey;
+}
+
+.screen {
+  background-color: black;
+  border-radius: 20px;
+  text-align: right;
+  border: SOLID 4PX #CDDC39;
+  color: white;
+  margin: 10px;
+  padding: 0 10px;
+}
+.keypad {
+  border-radius: 20px;
+  border: SOLID 4PX #CDDC39;
+  margin: 10px;
+  padding: 0 10px;
+}
+.keypad_row  {
+  display:flex;
+  justify-content: space-around;
+}
+h2 {
+  border-radius: 200px;
+  border: SOLID 0.5PX black;
+  padding: 20px;
+}
+h2:hover {
+  background:#CDDC39;
+}
