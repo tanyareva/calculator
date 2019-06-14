@@ -1,6 +1,8 @@
 .main {
   display: flex;
   justify-content: center;
+  background: black;
+  padding: 90px;
 }
 
 .calculate {
@@ -30,11 +32,12 @@
   display:flex;
   justify-content: space-around;
 }
-h2 {
+.keypad_row h2 {
   border-radius: 200px;
   border: SOLID 0.5PX black;
   padding: 20px;
+  cursor: pointer;
 }
-h2:hover {
+.keypad_row h2:hover {
   background:#CDDC39;
 }
